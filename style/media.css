@@ -1,0 +1,149 @@
+@media screen and (max-width: 1024px) {
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+    }
+    .logo {
+        order: -2;
+    }
+    .logo-h4 {
+        margin-top: 5px;
+        margin-left: 0px;
+    }
+    ul {
+        padding: 0;
+    }
+    .navbar ul a {
+        margin: 0 15px;
+    }
+    .nav-btn {
+        margin-left: 0px;
+        order: -1;
+    }
+    .video {
+        padding: 50px 0;
+    }
+    .video-image {
+        margin-right: 0px;
+        max-width: 100%;
+    }
+    h2 {
+        font-size: 32px;
+    }
+    .video-content {
+        padding: 0 20px;
+    }
+    .overview__flex-item {
+        margin-top: 20px;
+        margin-bottom: 0px;
+    }
+    .overview__flex-item img {
+        max-width: 100%;
+    }
+    .landing-image img {
+        max-width: 100%;
+    }
+    .contact__flex {
+        flex-direction: column;
+        align-items: center; 
+    }
+    .contact-btn {
+        display: block;
+        margin: 0 auto;
+    }
+    .contact-content {
+        text-align: center;
+        margin: 0;
+    }
+    .contact {
+       padding: 50px 0;
+    }
+    .contact-content h5 {
+        margin-top: 30px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .video__flex {
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+    .video-content {
+        margin: 0 auto;
+    }
+    .h6-link {
+        margin-bottom: 40px;
+    }
+    .video {
+        padding: 20px 0;
+    }
+    .video-content h2 {
+        margin-top: 15px;
+    }
+    .video-content h5 {
+        margin-top: 20px;
+    }
+    h1 {
+        font-size: 60px;
+    }
+    .landing__flex {
+        flex-direction: column;
+        
+        text-align: center;
+    }
+    .landing-content {
+        order: +1;
+        margin: 0 auto;
+    }
+    .landing {
+        padding: 40px 0;
+    }
+    .landing h5 {
+        margin-top: 25px;
+    }
+}
+@media screen and (max-width: 510px) {
+    .navbar ul {
+        flex-direction: column; 
+        text-align: center;
+    }
+    .navbar ul li  {
+        margin-bottom: 10px;
+    }
+    h1 {
+        font-size: 50px;
+    }
+    h3 {
+        font-size: 20px;
+    }
+    .header h1 {
+        margin-top: 80px;
+    }
+}
+@media screen and (max-width: 375px) {
+    .navbar ul {
+        flex-direction: column; 
+        text-align: center;
+    }
+    .navbar ul li  {
+        margin-bottom: 10px;
+    }
+    h1 {
+        font-size: 36px;
+    }
+    h3 {
+        font-size: 16px;
+    }
+    .header h1 {
+        margin-top: 50px;
+    }
+    .contact-btn {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 350px) {
+    .overview-content {
+        left: 0%;
+    }
+}
+
